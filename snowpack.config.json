@@ -1,4 +1,10 @@
 {
-  "extends": "@snowpack/app-scripts-lit-element",
-  "plugins": []
+  "mount": {
+    "public": "/",
+    "src": "/_dist_"
+  },
+  "install": ["lit-html"],
+  "installOptions": {
+    "installTypes": true
+  }
 }

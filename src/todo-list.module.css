@@ -1,0 +1,16 @@
+.wrapper {
+  padding: 16px;
+}
+
+.header {
+  color: hotpink;
+}
+
+.list {
+  list-style: '💩';
+  list-style-position: outside;
+}
+
+.list li {
+  padding-left: 10px;
+}
